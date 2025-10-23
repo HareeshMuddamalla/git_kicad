@@ -270,6 +270,18 @@
 		(uuid "59868181-0f88-4709-9f43-7202fc69e2fe")
 	)
 	(junction
+		(at 133.35 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aa16935-5195-43a0-89f9-8c9c289fe3f3")
+	)
+	(junction
+		(at 133.35 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9f85427-577c-443e-b008-5186cf18eca1")
+	)
+	(junction
 		(at 148.59 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -284,6 +296,16 @@
 			(type default)
 		)
 		(uuid "2014b436-ba5a-4463-976c-f706d80659f0")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471b18c2-4973-47a6-92bd-c9f955ce2289")
 	)
 	(wire
 		(pts
@@ -317,6 +339,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 102.87) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e20f87-b1f7-4c21-a7eb-b6ff729e8bf5")
+	)
+	(wire
+		(pts
 			(xy 162.56 80.01) (xy 148.59 80.01)
 		)
 		(stroke
@@ -324,6 +356,16 @@
 			(type default)
 		)
 		(uuid "a22e06bd-0847-4040-887f-0fc0039fdb87")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ae390d-21a0-41dd-b4ab-21723c7d561b")
 	)
 	(wire
 		(pts
@@ -357,6 +399,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec44aeb9-0d80-46cb-bcef-75ab23b5cd2f")
+	)
+	(wire
+		(pts
 			(xy 162.56 87.63) (xy 162.56 80.01)
 		)
 		(stroke
@@ -385,7 +437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18156236-f474-4088-9bd7-780ba6c17889")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 137.16 90.1699 0)
 			(effects
 				(font
@@ -439,7 +491,7 @@
 		(instances
 			(project ""
 				(path "/cc2011f6-6135-4ac0-8f43-1e17b35da812"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -580,6 +632,76 @@
 			(project "GIT"
 				(path "/cc2011f6-6135-4ac0-8f43-1e17b35da812"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "perl_symbol:C")
+		(at 123.19 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2ff524d-5ec9-47bd-8a67-7a245021e026")
+		(property "Reference" "C1"
+			(at 127 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 127 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.1552 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b587f513-6285-4e89-962e-2e35d30347f2")
+		)
+		(pin "2"
+			(uuid "525f994c-a56f-46cd-b3c3-9524773118f5")
+		)
+		(instances
+			(project "GIT"
+				(path "/cc2011f6-6135-4ac0-8f43-1e17b35da812"
+					(reference "C1")
 					(unit 1)
 				)
 			)
