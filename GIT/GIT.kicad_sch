@@ -264,6 +264,18 @@
 		)
 	)
 	(junction
+		(at 162.56 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d68d365-60a1-4a39-ae58-882adffd6cf6")
+	)
+	(junction
+		(at 162.56 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e1ee6e-e3f1-4f76-a9a0-9fef288469cf")
+	)
+	(junction
 		(at 148.59 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -284,6 +296,26 @@
 			(type default)
 		)
 		(uuid "2014b436-ba5a-4463-976c-f706d80659f0")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 172.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a020628-ddd8-4048-8ee0-d0cb9b007bc9")
+	)
+	(wire
+		(pts
+			(xy 172.72 80.01) (xy 162.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "482bb37a-82e7-49eb-802c-c0f664f5f591")
 	)
 	(wire
 		(pts
@@ -317,6 +349,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 95.25) (xy 172.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f69396-84f0-4d1a-bb36-81b672286412")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 172.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69078860-71c8-41ac-9fed-7df51b6d826b")
+	)
+	(wire
+		(pts
 			(xy 162.56 80.01) (xy 148.59 80.01)
 		)
 		(stroke
@@ -327,7 +379,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 102.87) (xy 148.59 102.87)
+			(xy 148.59 102.87) (xy 162.56 102.87)
 		)
 		(stroke
 			(width 0)
@@ -580,6 +632,76 @@
 			(project "GIT"
 				(path "/cc2011f6-6135-4ac0-8f43-1e17b35da812"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f70495b6-6a5a-4c4a-a627-7aa6004ae3a3")
+		(property "Reference" "R3"
+			(at 175.26 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 175.26 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.942 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc2b5627-c1ab-480a-9ea6-ccdfe9eacf3a")
+		)
+		(pin "1"
+			(uuid "9c61f9e4-fc27-4bcf-893d-e9370726b04e")
+		)
+		(instances
+			(project "GIT"
+				(path "/cc2011f6-6135-4ac0-8f43-1e17b35da812"
+					(reference "R3")
 					(unit 1)
 				)
 			)
